@@ -1,0 +1,89 @@
+/*  ========================================================================
+    # Settings - Fonts
+    ========================================================================  */
+
+/*  Lora
+    ========================================================================  */
+
+// Regular
+@font-face {
+  font-family: Lora;
+  src:
+    url('../fonts/lora--regular.woff2') format('woff2'),
+    url('../fonts/lora--regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Italic
+@font-face {
+  font-family: Lora;
+  src:
+    url('../fonts/lora--italic.woff2') format('woff2'),
+    url('../fonts/lora--italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+// 700
+@font-face {
+  font-family: Lora;
+  src:
+    url('../fonts/lora--700.woff2') format('woff2'),
+    url('../fonts/lora--700.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+// 700 Italic
+@font-face {
+  font-family: Lora;
+  src:
+    url('../fonts/lora--700italic.woff2') format('woff2'),
+    url('../fonts/lora--700italic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/*  Noto Sans
+    ========================================================================  */
+
+// Regular
+@font-face {
+  font-family: 'Noto Sans';
+  src:
+    url('../fonts/noto-sans--regular.woff2') format('woff2'),
+    url('../fonts/noto-sans--regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Italic
+@font-face {
+  font-family: 'Noto Sans';
+  src:
+    url('../fonts/noto-sans--italic.woff2') format('woff2'),
+    url('../fonts/noto-sans--italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+// 700
+@font-face {
+  font-family: 'Noto Sans';
+  src:
+    url('../fonts/noto-sans--700.woff2') format('woff2'),
+    url('../fonts/noto-sans--700.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+// 700 Italic
+@font-face {
+  font-family: 'Noto Sans';
+  src:
+    url('../fonts/noto-sans--700italic.woff2') format('woff2'),
+    url('../fonts/noto-sans--700italic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}

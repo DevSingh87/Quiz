@@ -1,0 +1,11 @@
+/*  ========================================================================
+    # Elements - Body
+    ========================================================================  */
+
+body {
+  @include fluid-type($font-size__h5, $font-size__h4--min);
+  font-family: $font-family__base;
+  font-weight: 400;
+  color: $color__font;
+  background-color: $color__background;
+}

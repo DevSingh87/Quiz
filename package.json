@@ -1,0 +1,101 @@
+{
+  "name": "projects.timschneider.xyz--quiz",
+  "version": "1.0.0",
+  "description": "A simple Quiz that is build with React.",
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "Sass/SCSS",
+    "JavaScript",
+    "TypeScript",
+    "ES6",
+    "React",
+    "Webpack"
+  ],
+  "author": {
+    "name": "Tim Schneider",
+    "twitter": "@RanzigeButter",
+    "email": "ranzigebutter.ts@gmail.com",
+    "url": "https://timschneider.xyz"
+  },
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RanzigeButter/Quiz.git"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.development.js",
+    "prod": "webpack --config webpack.config.production.js --progress --hide-modules"
+  },
+  "browserslist": {
+    "modern": [
+      "last 2 Chrome versions",
+      "not Chrome < 60",
+      "last 2 Firefox versions",
+      "not Firefox < 54",
+      "last 2 Edge versions",
+      "not Edge < 15",
+      "last 2 Safari versions",
+      "not Safari < 10.1",
+      "last 2 iOS versions",
+      "not iOS < 10.3"
+    ],
+    "legacy": [
+      "> 1%",
+      "last 2 versions",
+      "Firefox ESR"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4",
+    "@babel/runtime": "^7.7.4",
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
+    "@typescript-eslint/eslint-plugin": "^2.9.0",
+    "@typescript-eslint/parser": "^2.9.0",
+    "autoprefixer": "^9.7.2",
+    "babel-loader": "^8.0.6",
+    "clean-css-loader": "^2.0.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.5",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "file-loader": "^5.0.2",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "stylelint": "^12.0.0",
+    "stylelint-bare-webpack-plugin": "^1.1.3",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-scss": "^3.13.0",
+    "svg-spritemap-webpack-plugin": "^3.5.1",
+    "terser-webpack-plugin": "^2.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "core-js": "^3.4.4",
+    "regenerator-runtime": "^0.13.3"
+  }
+}

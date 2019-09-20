@@ -1,0 +1,9 @@
+/*  ========================================================================
+    # Elements - Selection
+    ========================================================================  */
+
+::selection {
+  background-color: $color__accent;
+  color: $color__background;
+  text-shadow: none;
+}

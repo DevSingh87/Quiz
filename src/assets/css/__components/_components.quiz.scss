@@ -1,0 +1,108 @@
+/*  ========================================================================
+    # Components - Quiz
+    ========================================================================  */
+
+.c-quiz {
+  &__container {
+    padding: calc-rem(40px);
+    background-color: $color__background--dark;
+    border: calc-rem(1px) solid $color__background--light;
+    text-align: center;
+  }
+
+  &__button {
+    @include transition__fade-out(0.25s, 0s);
+    display: inline-block;
+    margin: calc-rem(80px) 0 0;
+    padding: calc-rem(20px) calc-rem(40px);
+    background-color: $color__background--light;
+    font-size: $font-size__h5;
+    font-weight: 700;
+    letter-spacing: calc-rem(1px);
+    color: $color__font;
+
+    &:hover {
+      @include transition__fade-in(0.25s, 0s);
+      background-color: $color__accent;
+    }
+  }
+}
+
+/*  Intro
+    ======================================================================  */
+
+// .c-intro {
+//
+// }
+
+/*  Questions
+    ======================================================================  */
+
+.c-questions {
+  .o-row {
+    &:nth-child(1) {
+      justify-content: space-between;
+      margin: 0 0 calc-rem(80px);
+    }
+  }
+
+  &__current {
+    font-size: $font-size__h5;
+  }
+
+  &__reset {
+    font-size: $font-size__h5;
+    color: $color__accent;
+  }
+
+  &__options {
+    @include list-bare(calc-rem(40px) calc-rem(-20px) calc-rem(-20px), 0);
+    display: flex;
+    flex-flow: column nowrap;
+
+    &-item {
+      margin: calc-rem(20px);
+    }
+
+    &-label {
+      position: relative;
+      display: inline-flex;
+      width: 100%;
+
+      input {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+      }
+
+      span {
+        @include transition__fade-out(0.25s, 0s);
+        max-width: calc-rem(480px);
+        width: 100%;
+        margin: 0 auto;
+        padding: calc-rem(20px);
+        border: calc-rem(2px) solid $color__background--light;
+        font-size: $font-size__h6;
+        font-weight: 700;
+        color: $color__font--second;
+      }
+
+      input:checked {
+        ~ span {
+          @include transition__fade-in(0.25s, 0s);
+          border-color: $color__accent;
+          color: $color__font;
+        }
+      }
+    }
+  }
+}
+
+/*  Result
+    ======================================================================  */
+
+// .c-result {
+//
+// }

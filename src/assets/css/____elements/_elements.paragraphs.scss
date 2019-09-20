@@ -1,0 +1,21 @@
+/*  ========================================================================
+    # Elements - Paragraphs
+    ========================================================================  */
+
+p {
+  margin: 0 0 calc-rem(20px);
+  line-height: 1.75;
+  hyphens: auto;
+
+  &:last-child {
+    margin: 0;
+  }
+
+  a {
+    color: $color__accent;
+
+    &:hover {
+      border-bottom: 1px solid $color__accent;
+    }
+  }
+}

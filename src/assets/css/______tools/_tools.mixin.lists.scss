@@ -1,0 +1,9 @@
+/*  ========================================================================
+    # Tools - Mixin - Lists
+    ========================================================================  */
+
+@mixin list-bare($list__margin, $list__padding) {
+  margin: $list__margin;
+  padding: $list__padding;
+  list-style-type: none;
+}

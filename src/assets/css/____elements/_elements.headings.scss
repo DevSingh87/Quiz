@@ -1,0 +1,53 @@
+/*  ========================================================================
+    # Elements - Headings
+    ========================================================================  */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin: 0 0 calc-rem(20px);
+  font-family: $font-family__headline;
+  font-weight: 700;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+h1,
+.h1 {
+  @include fluid-type($font-size__h1--min, $font-size__h1--max);
+  margin: 0;
+}
+
+h2,
+.h2 {
+  @include fluid-type($font-size__h2--min, $font-size__h2--max);
+}
+
+h3,
+.h3 {
+  @include fluid-type($font-size__h3--min, $font-size__h3--max);
+}
+
+h4,
+.h4 {
+  @include fluid-type($font-size__h4--min, $font-size__h4--max);
+}
+
+h5,
+.h5 {
+  font-size: $font-size__h5;
+}
+
+h6,
+.h6 {
+  font-size: $font-size__h6;
+}

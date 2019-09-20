@@ -1,0 +1,11 @@
+/*  ========================================================================
+    # Objects - Section
+    ========================================================================  */
+
+.o-section {
+  position: relative;
+  max-width: calc-rem(1440px);
+  width: 100%;
+  margin: 0 auto;
+  padding: calc-rem(40px) calc-rem(20px);
+}
